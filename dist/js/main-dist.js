@@ -1,2 +1,2 @@
 let getGif=function(t,e){const i="https://api.giphy.com/v1/gifs/search?api_key="+GIPHY_API_KEY+"&rating=G&";axios.get(i+"q="+t).then((function(t){e(t.data.data)})).catch((function(t){console.warn(t)}))},topicName=document.querySelector(".topic"),myButton=document.querySelector(".submit-topic");topicName.addEventListener("keyup",(function(t){topicName.addEventListener("keypress",(function(){getGif(topicName.value,(function(t){console.log(t);let e=document.createElement("img");e.setAttribute("src",t[0].images.orginal.url),img.classList.add("new-img"),body.append(e)}))}))}));
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=main-dist.js.map

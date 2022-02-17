@@ -21,9 +21,58 @@ let getGif = function(searchTerm, callback) {
 
 
 
+
+
+
+
+
+
+
+
 /*
  * simple example of how to get cat gifs and console log the results
  */
-getGif('cat', function(gifData) {
-	console.log(gifData)
-})
+
+let topicName = document.querySelector('.topic')
+let myButton = document.querySelector('.submit-topic')
+
+topicName.addEventListener('keyup', function(event) {
+	// myButton.textContent = `Click count: ${event.detail}`;
+
+	// search giphy for whatever is typed in
+
+	// get what was typed in topicName
+	// send it to giphyAPI
+
+	// get the value of top00icName
+	// call getGif "value"
+
+
+	let type = function(){
+	getGif(topicName.value, function(gifData) {
+			console.log(gifData)
+			// put all gif on screen
+
+			// loop through array
+			// making a gif for each object
+
+			// loop through array
+			// make an img elemnent
+			// get src from the object // object.images.original.url
+			// append on body
+
+			let createdImg = document.createElement("img")
+			createdImg.setAttribute('src' , gifData[0].images.orginal.url)
+			img.classList.add('new-img')
+			body.append (createdImg)
+
+
+		})
+}
+
+topicName.addEventListener('keypress' , type)
+
+	
+  });
+
+
