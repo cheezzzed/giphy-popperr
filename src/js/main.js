@@ -35,9 +35,271 @@ let getGif = function(searchTerm, callback) {
 
 let topicName = document.querySelector('.topic')
 let myButton = document.querySelector('.submit-topic')
+console.log(topicName.value)
 
-topicName.addEventListener('keyup', function(event) {
-	// myButton.textContent = `Click count: ${event.detail}`;
+myButton.addEventListener('click', function (event) {
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[0].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[1].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[2].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[3].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[4].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[5].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[6].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[7].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[8].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+				console.log(getGif[i])
+
+				let widthHeight = Math.random() * 300
+
+				
+				createdImg.style.left = Math.random() * 600 + 'px'
+				createdImg.style.top = Math.random() * 600 + 'px'
+				
+				
+			}
+
+
+	})
+
+	getGif(topicName.value, function(gifData) {
+		console.log(gifData)
+		
+
+		let createdImg = document.createElement("img")
+		createdImg.setAttribute('src' , gifData[9].images.original.url)
+		createdImg.classList.add('new-img')
+		document.body.append(createdImg)
+
+			for (let i = 0; i < 10; i++) {
+			console.log(getGif[i])
+
+			let widthHeight = Math.random() * 300
+
+			
+			createdImg.style.left = Math.random() * 600 + 'px'
+			createdImg.style.top = Math.random() * 600 + 'px'
+			
+			
+		}
+	})
+
+
+
+
+	
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	// search giphy for whatever is typed in
 
@@ -47,32 +309,12 @@ topicName.addEventListener('keyup', function(event) {
 	// get the value of top00icName
 	// call getGif "value"
 
+		// put all gif on screen
 
-	let type = function(){
-	getGif(topicName.value, function(gifData) {
-			console.log(gifData)
-			// put all gif on screen
+		// loop through array
+		// making a gif for each object
 
-			// loop through array
-			// making a gif for each object
-
-			// loop through array
-			// make an img elemnent
-			// get src from the object // object.images.original.url
-			// append on body
-
-			let createdImg = document.createElement("img")
-			createdImg.setAttribute('src' , gifData[0].images.orginal.url)
-			img.classList.add('new-img')
-			body.append (createdImg)
-
-
-		})
-}
-
-topicName.addEventListener('keypress' , type)
-
-	
-  });
-
-
+		// loop through array
+		// make an img elemnent
+		// get src from the object // object.images.original.url
+		// append on body
